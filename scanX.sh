@@ -16,7 +16,8 @@ echo "/____  >\\___  >____  /___|  /___/\\  \\"
 echo "     \\/     \\/     \\/     \\/      \\_/"
 echo -e "\e[38;5;93m"
 
-echo -e "\e[1;35m                      Bienvenido a scanX 👾 \e[0m"
+echo -e "\e[1;35m  	                   	Bienvenido a scanX 👾 \e[0m"
+echo -e "\e[1;35m       	            	       	Autor: akiX \e[0m"
 echo "------------------------------------------------"
 
 echo -e "\e[38;5;255mMENU: Selecciona qué tipo de escaneo quieres hacer:"
@@ -25,7 +26,7 @@ echo -e "\t2. Escaneo desde la IP proporcionada hasta 254\n"
 
 # Comprobar si no está vacío
 if [ -z "$1" ]; then
-    echo -e "\e[38;5;88m[*] Uso: $0 <segmento_ip> (ej: $0 192.168.1)"
+    echo -e "\e[38;5;88m[*] Uso: $0 <segmento_ip> (ej: $0 192.168.1)\e[0m"
     exit 1
 fi
 
@@ -47,7 +48,7 @@ if [[ "$1" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
             echo -e "----------------------------------------\n"
         done
 
-        echo -e "\e[38;5;82m[*] Escaneo completado."
+        echo -e "\e[38;5;82m[*] Escaneo completado.\e[0m"
 
     # Opción 2: Escaneo desde IP específica
     elif [ "$inputUsuari" -eq 2 ]; then
@@ -64,16 +65,16 @@ if [[ "$1" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
             echo -e "----------------------------------------\n"
         done
 
-        echo -e "\e[38;5;82m [*] Escaneo completado."
+        echo -e "\e[38;5;82m [*] Escaneo completado.\e[0m"
 
     # ERRORES
 
     else
-        echo -e "\e[38;5;88m[*] Opción no válida (1 o 2)."
+        echo -e "\e[38;5;88m[*] Opción no válida (1 o 2).\e[0m"
         exit 1
     fi
 else
-    echo -e "\e[38;5;88m[*] Segmento de IP no válido. Uso correcto: $0 X.X.X"
+    echo -e "\e[38;5;88m[*] Segmento de IP no válido. Uso correcto: $0 X.X.X\e[0m"
     exit 1
 fi
 
