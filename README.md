@@ -14,3 +14,7 @@ Actualmente, scanX ofrece las siguientes funcionalidades:
 - Salida limpia y legible para una revisión rápida de resultados.
 
 Esta es solo la versión inicial, pero se planea integrar más características en futuras versiones, como detección de servicios, soporte para rangos personalizados, exportación de resultados y más.
+
+# INSTALACION
+
+git clone 
