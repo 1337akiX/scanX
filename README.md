@@ -7,7 +7,7 @@
 
 Actualmente, scanX ofrece las siguientes funcionalidades:
 
-- Descubrimiento de hosts activos en una red.
+- 2 opciones de escaneo diferentes para descubrir los hosts activos en una red.
 
 - Escaneo rápido de los top 100 puertos TCP más comunes.
 
@@ -18,9 +18,6 @@ Esta es solo la versión inicial, pero se planea integrar más características 
 # Instalacion 
 
 git clone https://github.com/1337akiX/scanX.git
-
 cd scanX
-
 chmod +x scanX
-
-./scanX X.X.X
+./scanX  X.X.X
