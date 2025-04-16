@@ -17,7 +17,10 @@ Esta es solo la versión inicial, pero se planea integrar más características 
 
 # Instalacion 
 
-git clone 
+git clone https://github.com/1337akiX/scanX.git
+
 cd scanX
+
 chmod +x scanX
+
 ./scanX X.X.X
