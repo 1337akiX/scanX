@@ -16,15 +16,19 @@ Actualmente, scanX ofrece las siguientes funcionalidades:
 Esta es solo la versión inicial, pero se planea integrar más características en futuras versiones, como detección de servicios, soporte para rangos personalizados, exportación de resultados y más.
 
 # Instalacion 
+Clonar repositorio
 ``` bash
 git clone https://github.com/1337akiX/scanX.git
 ```
+Moverse a la carpeta de scanX
 ``` bash
 cd scanX
 ```
+Darle permiso de ejecucion (si no tiene)
 ``` bash
-chmod +x scanX
+chmod +x scanX.sh
 ```
+ejecutar de manera correcta el script
 ``` bash
-./scanX  X.X.X
+./scanX.sh X.X.X
 ```
