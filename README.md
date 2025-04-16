@@ -1,7 +1,5 @@
 # **scanX v.01**
 
-![image](https://github.com/user-attachments/assets/8f38fe49-3001-464d-a8bc-39cf2d817eab)
-
 ![image](https://github.com/user-attachments/assets/25785869-5bea-4d7d-a65d-c36cb7e020b6)
 
 
