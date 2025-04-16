@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/8f38fe49-3001-464d-a8bc-39cf2d817eab)
 
+![image](https://github.com/user-attachments/assets/25785869-5bea-4d7d-a65d-c36cb7e020b6)
+
 
 **ScanX** es una herramienta ligera y automatizada diseñada para facilitar el reconocimiento de red en las primeras fases de análisis. Su propósito es identificar hosts activos dentro de una red y realizar un escaneo rápido de sus 100 puertos más utilizados, dando una visión general del estado de exposición de cada objetivo que se encuentra en la red.
 
