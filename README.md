@@ -28,7 +28,7 @@ Darle permiso de ejecucion (si no tiene)
 ``` bash
 chmod +x scanX.sh
 ```
-ejecutar de manera correcta el script
+Ejecutar de manera correcta el script
 ``` bash
 ./scanX.sh X.X.X
 ```
