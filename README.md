@@ -131,9 +131,8 @@ else
 fi
 ```
 ## Proximamente
-Menu:
-- 1. Scaneo total de la RED
-  2. Scaneo simple de una sola ip
-  3. Scaneo profundo de una sola ip
-  4. Scaneo para CTF
-  5. Scaneo Sneaky
+- Scaneo total de la RED
+- Scaneo simple de una sola ip
+- Scaneo profundo de una sola ip
+- Scaneo para CTF
+- Scaneo Sneaky
