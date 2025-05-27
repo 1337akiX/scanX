@@ -1,6 +1,6 @@
 # **scanX v.01**
 
-![imagen scanX](screenshot12.png)
+![imagen scanX](https://github.com/1337akiX/scanX/blob/master/scree.png)
 
 **scanX** es una herramienta ligera y automatizada programada en Bash diseñada para facilitar distintos tipos de escaneos de red usando Nmap. Al ejecutarlo, presenta un menú con varias opciones que van desde un escaneo básico para detectar hosts activos en una subred, hasta escaneos profundos y sigilosos que emplean técnicas avanzadas como el uso de IP zombies y proxys para evadir detección.
 
