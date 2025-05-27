@@ -2,18 +2,8 @@
 
 ![imagen scanX](https://github.com/1337akiX/scanX/blob/master/screenshot12.png)
 
+**scanX** es una herramienta ligera y automatizada programada en Bash diseñada para facilitar distintos tipos de escaneos de red usando Nmap. Al ejecutarlo, presenta un menú con varias opciones que van desde un escaneo básico para detectar hosts activos en una subred, hasta escaneos profundos y sigilosos que emplean técnicas avanzadas como el uso de IP zombies y proxys para evadir detección.
 
-**scanX** es una herramienta ligera y automatizada diseñada para facilitar el reconocimiento de red en las primeras fases de análisis. Su propósito es identificar hosts activos dentro de una red y realizar un escaneo rápido de sus 100 puertos más utilizados, dando una visión general del estado de exposición de cada objetivo que se encuentra en la red.
-
-Actualmente, scanX ofrece las siguientes funcionalidades:
-
-- 2 opciones de escaneo diferentes para descubrir los hosts activos en una red.
-
-- Escaneo rápido de los top 100 puertos TCP más comunes.
-
-- Salida limpia y legible para una revisión rápida de resultados.
-
-Esta es solo la versión inicial, pero se planea integrar más características en futuras versiones, como detección de servicios, soporte para rangos personalizados, exportación de resultados y más.
 ## Requerimientos
 [nmap](https://nmap.org/)
 
