@@ -16,7 +16,10 @@ Actualmente, scanX ofrece las siguientes funcionalidades:
 Esta es solo la versión inicial, pero se planea integrar más características en futuras versiones, como detección de servicios, soporte para rangos personalizados, exportación de resultados y más.
 ## Requerimientos
 [nmap](https://nmap.org/)
+[tor](https://www.torproject.org/)
+[proxychains](https://github.com/rofl0r/proxychains-ng)
 
+## NMAP
 ### Debian/Ubuntu
 ``` bash
 sudo apt-get install nmap
@@ -28,6 +31,32 @@ sudo pacman -S nmap
 ### Fedora
 ``` bash
 sudo dnf install nmap 
+```
+## TOR
+### Debian/Ubuntu
+``` bash
+sudo apt-get install tor
+```
+### Arch Linux:
+``` bash
+sudo pacman -S tor
+```
+### Fedora
+``` bash
+sudo dnf install tor 
+```
+## PROXYCHAINS
+### Debian/Ubuntu
+``` bash
+sudo apt install proxychains4
+```
+### Arch Linux:
+``` bash
+sudo pacman -S proxychains-ng
+```
+### Fedora
+``` bash
+sudo dnf install proxychains-ng
 ```
 
 ## Instalacion 
