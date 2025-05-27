@@ -131,8 +131,5 @@ else
 fi
 ```
 ## Proximamente
-- Scaneo total de la RED
-- Scaneo simple de una sola ip
-- Scaneo profundo de una sola ip
-- Scaneo para CTF
-- Scaneo Sneaky
+- Scaneo Sneaky con proxychains
+- Pedir si quiere archivo de guardado
