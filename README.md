@@ -64,6 +64,18 @@ Darle permiso de ejecucion (si no tiene)
 ``` bash
 chmod +x scanX.sh
 ```
+Modificar archivo de configuracion de proxychains
+``` bash
+sudo vim /etc/proxychains.conf
+```
+y abajo del todo del archivo de configuracion pones:
+``` bash
+socks5  127.0.0.1 9050
+```
+Iniciar el servicio de tor, para poder usar proxychains
+``` bash
+sudo systemctl start tor.service
+```
 Ejecutar de manera correcta el script
 ``` bash
 ./scanX.sh X.X.X.X
